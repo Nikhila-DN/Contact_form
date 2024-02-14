@@ -16,7 +16,7 @@
     <div class="main-container">
         <div class="row d-flex md-d-flex lg-d-flex sm-d-block  justify-content-center align-items-center">
             <div class="col-md-5 col-sm-12 d-block m-auto  text-center left">
-                <img src="contacts-customer.svg" alt="Customer image" style="width:100px; height:100px;">
+                <img src="./images/contacts-customer.svg" alt="Customer image" style="width:100px; height:100px;">
                 <h1>Let's get you set up</h1>
                 <p>It should only take a couple of minutes to pair with your watch</p>
                 <button>></button>
@@ -27,15 +27,15 @@
                         <div class="col-4 m-auto"><label for="name">Name </label></div>
                         <div class="col-8 m-auto"><input type="text" id="name" placeholder="Your Name.." required></div>
                     </div>
-                   <div class="col-12 d-flex pt-2 pb-2">
+                   <div class="col-12 d-flex pt-2 pb-2 gender">
                         <div class="col-4 m-auto"><label for="">Gender </label></div>
                         <div class="col-4 m-auto"> 
-                            <input type="radio" name="gender" value="male" id="male">
-                            <label for="male">Male</label>
+                            <input type="radio" name="gender" value="male" id="male" class="input-hidden">
+                            <label for="male"><img src="./images/male.svg" alt="" style="width:40px; height:40px;"> Male</label>
                         </div>
                         <div class="col-4 m-auto"> 
-                            <input type="radio" name="gender" value="female"  id="female"> 
-                            <label for="female">Female</label>
+                            <input type="radio" name="gender" value="female"  id="female" class="input-hidden"> 
+                            <label for="female"><img src="./images/female.svg" alt="" style="width:40px; height:40px;"> Female</label>
                         </div>
                     </div>
                     
@@ -59,16 +59,16 @@
                     <div class="col-12 d-flex  pt-2 pb-2 membership">
                         <div class="col-3  m-auto"><label for="membership">Membership</label></div>
                         <div class="col-3  m-auto">
-                            <input type="radio" name="membership" value="classic" id="classic">
-                            <label for="classic">Classic</label>
+                            <input type="radio" name="membership" value="classic" id="classic" class="input-hidden">
+                            <label for="classic"><img src="./images/member.svg" alt="" style="width:40px; height:40px;"> Classic</label>
                         </div>
                         <div class="col-3 2 m-auto">
-                            <input type="radio" name="membership" value="silver" id="silver">
-                            <label for="silver">Silver</label>
+                            <input type="radio" name="membership" value="silver" id="silver" class="input-hidden">
+                            <label for="silver"><img src="./images/member.svg" alt="" style="width:40px; height:40px;"> Silver</label>
                         </div>
                         <div class="col-3  m-auto">
-                            <input type="radio" name="membership" value="gold" id="gold">
-                            <label for="gold">Gold</label>
+                            <input type="radio" name="membership" value="gold" id="gold"class="input-hidden">
+                            <label for="gold"><img src="./images/member.svg" alt="" style="width:40px; height:40px;"> Gold</label>
                         </div>
                     </div>
                     <div class="col-12 d-flex pt-2 pb-2">
