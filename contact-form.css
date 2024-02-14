@@ -1,0 +1,67 @@
+/* Contact Form style */
+body{
+    background-color: #f7f7f7;
+}
+.main-container{
+    border: none;
+    border-radius: 20px;
+    width: auto;
+    height:auto;
+    margin: 10% 6%;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.left, .left img, .left h1, .left p{
+    background-color: #fed403;
+}
+.left{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    padding: 10rem 2rem;
+}
+.left button{
+    background-color: #363a33;
+    color: #fed403;
+    border: none;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.right form{
+    background-color: #fff;
+}
+input[type=text], input[type=date], input[type=tel], input[type=email]{
+    width: 80%;
+    background-color: #f4f8f9;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+input{
+    padding: 10px;
+}
+.right .btn{
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+#save{
+    background-color: #5ee6c4 !important;
+    border: none;
+}
+@media screen and (max-width:460px){
+    .left{
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 20px;
+        border-top-right-radius:20px ;
+        padding: 3rem;
+    }
+    .right{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
