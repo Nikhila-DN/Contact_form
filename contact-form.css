@@ -49,10 +49,32 @@ input{
     height: auto;
     text-align: center;
 }
+.input-hidden {
+    position: absolute;
+    left: -9999px;
+  }
 #save{
     background-color: #5ee6c4 !important;
     border: none;
 }
+.gender img{
+    background-color:  #f4f8f9;
+    border-radius: 100%;
+    border: none;
+    color: #363a33;
+    padding: 10px;
+}
+.membership img{
+    background-color: #c4c4c4;
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+}
+input[type=radio]:checked + label>img {
+    border: 1px solid #fff;
+    box-shadow: 0 0 3px 3px rgb(57, 59, 57);
+  }
+
 @media screen and (max-width:460px){
     .left{
         border-bottom-left-radius: 0px;
@@ -65,5 +87,7 @@ input{
         padding-right: 0px;
     }
     .membership{
-        display:block !important;}
+        display: block !important;
+    }
 }
+
